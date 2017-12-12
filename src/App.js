@@ -125,7 +125,7 @@ class App extends Component {
             <div className="row all-contain">
             {this.state.authed ? <ProfileColumn authed={this.state.authed}/> : null}
               <Switch>
-                <Route path='/' exact component={Home} />
+                <Route path='https://williams11bm.github.io/Squirrel/' exact component={Home} />
                 <PublicRoute authed={this.state.authed} path='/login' component={LoginPage} />
                 <PublicRoute authed={this.state.authed} path='/register' component={RegisterPage} />
                 <PrivateRoute authed={this.state.authed} path='/my-lists' component={MyLists} />

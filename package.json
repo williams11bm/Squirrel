@@ -2,7 +2,7 @@
   "name": "squirrel-frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://<github-username>.github.io/<project-repo>",
+  "homepage": "https://williams11bm.github.io/Squirrel",
   "dependencies": {
     "amazon-product-api": "^0.4.4",
     "dotenv": "^4.0.0",
@@ -15,6 +15,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "jest",
     "eject": "react-scripts eject"
