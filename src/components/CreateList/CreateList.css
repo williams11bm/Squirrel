@@ -1,0 +1,23 @@
+.create-list-container {
+  padding: 0px 50px;
+}
+
+.create-list-button-container {
+  text-align: center;
+}
+
+
+.create-list-btn {
+  margin: 20px;
+  background-color: white;
+  color: #416c6d;
+  font-size: 1.2em;
+  text-transform: none;
+}
+
+.create-list-btn:hover {
+  margin: 20px;
+  background-color: #416c6d;
+  color: white;
+  font-size: 1.2em;
+}

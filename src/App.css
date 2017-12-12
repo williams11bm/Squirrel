@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+
+.container {
+  background: url('./images/p6.png');
+  margin-bottom: 0px !important;
+}
+
+* {
+  font-family: 'Playfair Display', serif;
+}
+
+.row {
+  margin-bottom: 0px !important;
+}
+
+.videoTag {
+/*  making the video fullscreen  */
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}

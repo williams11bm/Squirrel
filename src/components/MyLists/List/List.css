@@ -1,0 +1,26 @@
+.view_list {
+  color: #416c6d;
+  font-weight: bolder;
+}
+
+.list_title, .list_description {
+  color: rgb(113, 113, 113);
+}
+
+
+.edit-list {
+  margin-right: 40px;
+  color: rgb(117, 117, 117);
+}
+
+.edit-list:hover{
+  color: rgba(26, 146, 87, 0.87);
+}
+
+.delete-list {
+  color: rgb(117, 117, 117);
+}
+
+.delete-list:hover {
+  color:rgb(230, 76, 76);
+}

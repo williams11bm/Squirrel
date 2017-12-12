@@ -1,0 +1,15 @@
+.card-image img{
+	height: 125px !important;
+	width: auto !important;
+}
+
+.card-image {
+	height: 125px !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.card-content {
+	padding: 10px 10px 15px 10px !important;
+	overflow-y: scroll !important;
+}

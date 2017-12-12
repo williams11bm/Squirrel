@@ -1,0 +1,10 @@
+.collection-item {
+	margin-top: 20px !important;
+}
+
+.view-lists-container {
+	border-style: none !important;
+	height: 600px;
+	padding: 0px 50px;
+	overflow: auto;
+}
